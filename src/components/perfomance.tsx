@@ -15,7 +15,7 @@ function Performance() {
     
     useGSAP(() => {
 
-        gsap.fromTo('.content p', {
+        gsap.fromTo('.paragraph', {
             opacity: 0,
             y: 10
         },
@@ -69,7 +69,7 @@ function Performance() {
             </div>
 
             <div className="content">
-                <p>
+                <p className='paragraph'>
                     Run graphics-intensive workflows with a responsiveness that keeps up with your imagination. The M4 family of chips features a GPU with a second-generation hardware-accelerated ray tracing engine that renders images faster,
                     so <span className='text-white'>gaming feels more immersive and realistic than ever.</span>
 
