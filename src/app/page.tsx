@@ -1,6 +1,7 @@
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import ProductViewer from "@/components/productViewer";
+import Showcase from "@/components/showcase";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <ProductViewer />
+        <Showcase />
       </main>
   );
 }

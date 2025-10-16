@@ -113,7 +113,7 @@ body {
   }
 
   #hero {
-    @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+    @apply h-fit lg:h-[90vh] col-center mt-40 lg:mt-30 2xl:mt-[7vh];
 
     div {
       @apply relative z-10 col-center lg:translate-y-16;
@@ -128,7 +128,7 @@ body {
     }
 
     video {
-      @apply mx-auto lg:translate-y-5 2xl:translate-y-0;
+      @apply mx-auto lg:h-[50%] lg:translate-y-5 2xl:translate-y-0;
     }
 
     button {
@@ -181,7 +181,7 @@ body {
   }
 
   #showcase {
-    @apply relative;
+    @apply relative h-fit;
 
     .media {
       @apply relative lg:overflow-hidden;
