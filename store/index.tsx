@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 
-const useMackbookStore = create((set) => ({
+const useMackbookStore = create((set): {color: string, scale: number, setColor: (value: string) => void, setScale: (value: number) => void, reset: () => void} => ({
     color: '#2e2c2e',
     setColor: (color: string) => set({color}),
     scale: 0.08,

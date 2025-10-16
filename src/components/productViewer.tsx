@@ -11,7 +11,7 @@ import { useMediaQuery } from 'react-responsive'
 
 
 function ProductViewer() {
-    const { color, scale, setColor, setScale }: { color: string, scale: number, setColor: (value: string) => void, setScale: (value: number) => void } = useMackbookStore()
+    const { color, scale, setColor, setScale }= useMackbookStore()
 
     const isMobile = useMediaQuery({ query: '(max-width: 1024px)' })
     return (
