@@ -1,5 +1,6 @@
 import Features from "@/components/features";
 import Hero from "@/components/hero";
+import Highlights from "@/components/highlights";
 import Navbar from "@/components/navbar";
 import Perfomance from "@/components/perfomance";
 import ProductViewer from "@/components/productViewer";
@@ -14,6 +15,7 @@ export default function Home() {
         <Showcase />
         <Perfomance />
         <Features />
+        <Highlights />
       </main>
   );
 }
