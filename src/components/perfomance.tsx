@@ -55,7 +55,7 @@ function Performance() {
 
             timeline.to(`.${id}`, toVars, 0)
         })
-    }, { scope: '#performance', dependencies: [isMobile] })
+    },[isMobile])
 
 
     return (
